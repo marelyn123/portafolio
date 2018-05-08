@@ -1,0 +1,132 @@
+/*Reseteamos los estilos de margin y padding*/
+
+header, footer, aside, nav, article{
+	display: block;
+}
+body{
+	margin: 0 auto;
+	width: 940px;
+	font:13px/22px Helvetica, arial, sans-serit;
+	background: #f0f0f0;
+}
+h1{
+	margin:12px;
+	
+}
+h2{
+	font-size:20px;
+	line-height:40px;
+}
+ 
+ p{
+	padding-bottom: 22px;
+	text-align:justify;
+	color:#00000;
+ }
+ nav{
+	position:absolute;
+	left:0;
+	width:100%;
+	background:#000;
+ }
+ nav ul{
+	margin:0 auto;
+	width: 940px;
+	list-style: none;
+ }
+ nav ul li{
+	float: left;
+ }
+ nav ul li a{
+	display: block;
+	margin-right: 20px;
+	width: 140px;
+	font-size:14px;
+	line-height:44px;
+	text-align: center;
+	text-decoration: none;
+	color:#fff;
+ }
+ nav ul li a:hover{
+	color:#000;
+ }
+ nav ul li.selected {
+	color:#fff
+ }
+ #intro{
+	margin-top:66px;
+	padding:44px;
+	background: #fff url("intro_background.png") repeat-x;
+	background-size: 100%;
+	border-radius: 22px;
+ }
+ intro{
+	/*Background-size not implemented yet*/
+	-webkit-background-size:100%;
+	-khtml-background-size:100%;
+	
+	/*Border-radius not implemented yet*/
+	-moz-border-radius: 22px;
+	-webkit-border-radius: 22px;
+ }
+ 
+#intro h2, #intro p{
+	position: relative;
+	z-index: 9999;
+	width: 336px;
+}
+#intro h2{
+	padding: 0 0 22px 0;
+	font-weight: normal;
+	color: #fff;
+}
+#intro p{
+	padding:0;
+	color: #fff;
+}
+#intro img{
+	position: absolute;
+	top:90PX;
+	right: 440PX;
+	width: 60%;
+	height:500PX;
+}
+
+/*----------------------------
+=BLOG POST
+----------------------------*/
+.blogPost header p, .blogPost header p a{
+        font-size: 14px;
+		font-style: italic;
+		color: #777;
+    }
+		
+		.blogPost header p a:hover{
+			text-decoration:none;
+			color: #000;
+        }
+.blogPost div {
+	/* Column-count not implemented yet*/
+	-moz-column-count: 2PX;
+	-webkit-column-count: 2PX;
+	
+	/*Column gap not implemented yet*/
+	-moz-column-gap: 22px;
+	-webkit-column-gap: 22px;
+}
+
+.blogPost img{
+	margin: 100px 0;
+	-webkit-box-shadow: 3px 3px 7px #777;
+}
+
+   
+		
+    .pie{
+		position:absolute;
+		font:bold 15px Arial;
+		font-size:100%;
+		font-style:italic;
+		text-align: center;
+		color:#FFF;
+	}	
